@@ -1,0 +1,905 @@
+
+main {
+	width: 100%;
+	height: 95vh;
+	margin:0 auto;
+}
+@media screen and (min-width: 1025px) {
+
+  .left_main{
+    width: 50%;
+	background: linear-gradient(to right, #F3F3F3 30%, #ffffff 30%, #F3F3F3);
+	height: 100%;
+}
+  .top_left_main {
+	width: 100%;
+	height: 20%;
+	background-color: #f3f3f3;
+	background-size: cover;
+}
+  .logo {
+	position: absolute;
+	top: 4vh;
+	left: 2vw;
+}
+  .right_main {
+	width: 50%;
+}
+  .slide_1, #pic1 {
+	position: absolute;
+	top: 10vh;
+	left:5vw;
+	width: 60%;
+	height: 70%;
+	background-image: url("image/kaboompics_Arc de la Rua Augusta in Lisbon, Portugal.jpg");
+	background-size: cover;
+}
+  .first {
+	position: absolute;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Geometria-Light, Arial, Sans-serif;
+	z-index: 1;
+	color: #000000;
+	top:19%;
+	left: 21%;
+}
+  .second {
+	position: absolute;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Geometria-Light, Arial, Sans-serif;
+	z-index: 1;
+	color: #000000;
+	top:28%;
+	left: 21%;
+}
+  .third {
+	position: absolute;
+	font-size: 28px;
+	line-height: 36px;
+	font-family: Geometria-Heavy, Arial, Sans-serif;
+	font-weight: bold;
+	z-index: 1;
+	color: #aea424;
+	top:14%;
+	left: 45%;
+    transform: rotate(-90deg);
+}
+  .forth {
+	position: absolute;
+	top: 29%;
+	left: 37%;
+	color: #000000;
+	z-index: 2;
+}
+.fifth  {
+	position: absolute;
+	top: 22%;
+	left: 56%;
+	color: #000000;
+	z-index: 2;
+}
+  .fifth_sign {
+	position: absolute;
+	top: 28%;
+	left: 28%;
+	color: #ffffff;
+	z-index: 2;
+	font-family: Geometria, Arial, Sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+  .sixth {
+	position: absolute;
+	font-size: 9px;
+	line-height: 10px;
+	font-family: Philosopher-Italic, Arial, Sans-serif;
+	font-style: italic;
+	z-index: 1;
+	color: #000000;
+	top:60%;
+	left: 32%;
+    transform: rotate(-90deg);
+}
+  .seventh {
+	position: absolute;
+	top: 76%;
+	left: 42%;
+	color: #000000;
+	z-index: 2;
+}
+  .seventh_sign {
+	width: 17vw;
+	height: 1vh;
+	background-color: #f7e611;
+	top: 78%;
+	left: 58%;
+	z-index: 2;
+}
+  .affinage_sign {
+	position: absolute;
+	top: 87%;
+	left: 19%;
+	
+}
+  .affinage_sign1, .affinage_sign2, .affinage_sign3, .affinage_sign4, .affinage_sign6, .affinage_sign7, .affinage_sign9, .affinage_sign10 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: Philosopher-Bold, Arial, Sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #000000;
+}
+  .affinage_sign1 {
+	top: 93%;
+	left: 23%;
+}
+  .affinage_sign2 {
+	top: 89%;
+	left: 27%;
+}
+  .affinage_sign3 {
+	top: 94%;
+	left: 31%;
+}
+  .affinage_sign4 {
+	top: 91%;
+	left: 35%;
+}
+  .affinage_sign5 {
+	position: absolute;
+	top: 96%;
+	left: 35%;
+}
+  .affinage_sign6 {
+	top: 95%;
+	left: 40%;
+}
+  .affinage_sign7 {
+	top: 94%;
+	left: 61%;
+}
+  .affinage_sign8 {
+	position: absolute;
+	top: 96%;
+	left: 64%;
+}
+  .affinage_sign9 {
+	top: 92%;
+	left: 69%;
+}
+  .affinage_sign10 {
+	top: 94%;
+	left: 78%;
+}
+  .affinage_sign11 {
+	position: absolute;
+	top: 91%;
+	left: 82%;
+}
+  .letters, .letters1, .letters2 {
+	position: absolute;
+}
+  .letters {
+    top: 2%;
+	left: 74%;
+}
+  .letters1 {
+    top: 11%;
+	left: 86%;
+}
+  .letters2 {
+	top: 21%;
+	left: 80%;
+	z-index: 2;
+}
+  .slide_2, #pic2 {
+    background-image: url(image/photo1.jpg);
+    top: 20vh;
+    left: 40vw;
+    background-size: cover;
+    height: 70%;
+    z-index: 1;
+    width: 60%;
+    position: absolute;
+}
+  .cover1::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 60%;
+    height: 70%;
+    top: 10vh;
+    left: 5vw;
+}
+  .cover2::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 60%;
+    height: 70%;
+    top: 20vh;
+    left: 40vw;
+}
+
+  .rectangle {
+	position: absolute;
+	width:11%;
+	height: 56%;
+	background-color: #f7e611;
+	z-index: 2;
+	top:29%;
+	left:77%;
+}
+  .rectangle_sign1 {
+	position: absolute;
+	top: 56%;
+	left: -27%;
+	z-index: 2;
+}
+  .rectangle_sign2 {
+	position: absolute;
+	top: 56%;
+	left: 109%;
+	z-index: 2;
+}
+  .rectangle_sign3, .rectangle_sign4, .rectangle_sign5 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: Geometria-HeavyItalic, Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	z-index: 2;
+}
+  .rectangle_sign3 {
+	top: 78%;
+	left: 16%;
+	line-height: 57px;
+	font-size: 45px;
+}
+  .rectangle_sign4 {
+	top: 84%;
+	left: 55%;
+	font-size: 17px;
+}
+  .rectangle_sign5 {
+	top: 90%;
+	left: 55%;
+	font-size: 17px;
+}
+  .menu {
+    position: absolute;
+	top: 11%;
+	left: 95%;
+}
+  .menu1, .comp_name1, .comp_name2 {
+	display: none;
+}
+  .comp_name {
+	position: absolute;
+	z-index: 3;
+	font-family: Philosopher, Arial, Sans-serif;
+	font-size: 9rem;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-top: 20%;
+	margin-left: 12%;
+	margin-bottom: 20%;
+	color: #ffffff;
+	width: 80%;
+}
+}
+@media screen and (max-width: 320px) {
+
+  body {
+	background: #f7e611;
+}
+  .logo {
+	position: absolute;
+	width: 10%;
+	height: 4%;
+	top: 4vh;
+	left: 8vw;
+}
+  main {
+	height: 0;
+}
+  .comp_name, .first, .second, .third, .fifth, .fifth_sign, .affinage_sign1, .affinage_sign2, .affinage_sign3, .affinage_sign4, .comp_name1,.comp_name2,
+.affinage_sign5, .affinage_sign6, .affinage_sign7, .affinage_sign9, .affinage_sign10, .affinage_sign11, .menu, .rectangle_sign4, .rectangle_sign5 {
+	display: none;
+}
+  .forth {
+	position: absolute;
+	top: 0%;
+	left:49%;
+	transform: rotate(90deg);
+	background-position: left bottom;
+    overflow: hidden;
+}
+  .forth img {
+    margin-top: -72%;
+    margin-left: -9%;
+}
+  .slide_1, #pic1 {
+	position: absolute;
+	top: 12vh;
+	left:0vw;
+	width: 78%;
+	height: 31%;
+	background-image: url("image/kaboompics_Arc de la Rua Augusta in Lisbon, Portugal.jpg");
+	background-size: cover;
+    background-position: top right;
+    z-index: 1;
+}
+  .slide_2, #pic2 {
+	position: absolute;
+	background-image: url("image/photo1.jpg");
+	top: 41vh;
+	left:0;
+	background-size: cover;
+	height: 58%;
+	z-index: 1;
+	width: 100%;
+	background-position: center;
+}
+  .cover1::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.4;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 78%;
+    height: 30%;
+}
+  .cover2::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 58%;
+    top: 41vh;
+    left: 0;
+}
+  .menu1 {
+    position: absolute;
+	top: 5%;
+	left: 88%;
+}
+  .sixth {
+	position: absolute;
+	font-size: 9px;
+	line-height: 10px;
+	font-family: Philosopher-Italic, Arial, Sans-serif;
+	font-style: italic;
+	z-index: 2;
+	color: #000000;
+	top:42%;
+	left: -9%;
+    transform: rotate(-90deg);
+}
+  .letters {
+    top: 35%;
+    left: 18%;
+    z-index: 2;
+    position: absolute;
+}
+  .letters1 {
+    top: 20%;
+    left: 70%;
+    position: absolute;
+    z-index: 1;
+}
+  .letters2 {
+    top: 33%;
+    left: 47%;
+    z-index: 1;
+    position: absolute;
+}
+  .affinage_sign {
+    position: absolute;
+    top: 39%;
+    left: 87%;
+    z-index: 1;
+}
+  .rectangle_sign1 {
+	position: absolute;
+	top: 69%;
+	left: 3%;
+	z-index: 2;
+}
+  .rectangle_sign2 {
+	position: absolute;
+	top: 69%;
+	left: 89%;
+	z-index: 2;
+}
+  .affinage_sign8 {
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    z-index: 2;
+}
+  .rectangle_sign3 {
+	top: 91%;
+	left: 83%;
+	line-height: 57px;
+	position: absolute;
+	z-index: 1;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Geometria-HeavyItalic, Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+  .seventh {
+    position: absolute;
+    top: 82%;
+    left: 17%;
+    color: #000000;
+    z-index: 2;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 640px) {
+
+  body {
+	background: #f7e611;
+}
+  .logo {
+    position: absolute;
+    width: 8%;
+    height: 6%;
+    top: 4vh;
+    left: 5vw;
+}
+  main {
+	height: 0;
+}
+  .comp_name, .first, .second, .third, .fifth, .seventh, .fifth_sign, .affinage_sign1, .affinage_sign2, .affinage_sign3, .affinage_sign4, .comp_name2,
+.affinage_sign5, .affinage_sign6, .affinage_sign7, .affinage_sign9, .affinage_sign10, .affinage_sign11, .menu1, .rectangle_sign4, .rectangle_sign5 {
+	display: none;
+}
+  .forth {
+	display: none;
+}
+  .forth img {
+    margin-top: -72%;
+    margin-left: -9%;
+}
+  .slide_1, #pic1 {
+	position: absolute;
+	top: 12vh;
+	left:0vw;
+	width: 78%;
+	height: 31%;
+	background-image: url("image/kaboompics_Arc de la Rua Augusta in Lisbon, Portugal.jpg");
+	background-size: cover;
+    background-position: top right;
+    z-index: 1;
+}
+  .slide_2, #pic2 {
+	position: absolute;
+	background-image: url("image/photo1.jpg");
+	top: 41vh;
+	left:0;
+	background-size: cover;
+	height: 58%;
+	z-index: 1;
+	width: 100%;
+	background-position: center;
+}
+  .cover1::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.4;
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    bottom: 0;
+    left: 0vw;
+    z-index: 1;
+    width: 78%;
+    height: 30%;
+}
+
+  .cover2::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 58%;
+    top: 41vh;
+    left: 0;
+}
+  .menu {
+    position: absolute;
+	top: 3%;
+	left: 82%;
+}
+  .sixth {
+	position: absolute;
+	font-size: 9px;
+	line-height: 10px;
+	font-family: Philosopher-Italic, Arial, Sans-serif;
+	font-style: italic;
+	z-index: 2;
+	color: #000000;
+	top:42%;
+	left: -9%;
+    transform: rotate(-90deg);
+}
+  .letters {
+    top: 35%;
+    left: 18%;
+    z-index: 2;
+    position: absolute;
+}
+  .letters1 {
+    top: 20%;
+    left: 70%;
+    position: absolute;
+    z-index: 1;
+}
+  .letters2 {
+    top: 33%;
+    left: 47%;
+    z-index: 1;
+    position: absolute;
+}
+  .affinage_sign {
+    position: absolute;
+    top: 39%;
+    left: 87%;
+    z-index: 1;
+}
+  .rectangle_sign1 {
+	position: absolute;
+	top: 69%;
+	left: 3%;
+	z-index: 2;
+}
+  .rectangle_sign2 {
+	position: absolute;
+	top: 69%;
+	left: 89%;
+	z-index: 2;
+}
+  .affinage_sign8 {
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    z-index: 2;
+}
+  .rectangle_sign3 {
+	top: 91%;
+	left: 83%;
+	line-height: 57px;
+	position: absolute;
+	z-index: 1;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Geometria-HeavyItalic, Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+ .comp_name1 {
+	position: absolute;
+	z-index: 3;
+	font-family: Philosopher, Arial, Sans-serif;
+	font-size: 9vh;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-top: 52%;
+	margin-left: 12%;
+	margin-bottom: 20%;
+	color: #ffffff;
+	width: 80%;
+	text-align: center;
+}
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .left_main {
+	width: 50%;
+	background: linear-gradient(to right, #F3F3F3 30%, #ffffff 30%, #F3F3F3);
+	height: 100%;
+}
+  .top_left_main {
+	width: 100%;
+	height: 20%;
+	background-color: #f3f3f3;
+	background-size: cover;
+}
+  .logo {
+	position: absolute;
+	top: 4vh;
+	left: 2vw;
+}
+  .right_main {
+	width: 50%;
+}
+.slide_1, #pic1 {
+	position: absolute;
+	top: 10vh;
+	left:5vw;
+	width: 60%;
+	height: 70%;
+	background-size: cover;
+}
+  .first {
+	position: absolute;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Geometria-Light, Arial, Sans-serif;
+	z-index: 1;
+	color: #000000;
+	top:19%;
+	left: 21%;
+}
+  .second {
+	position: absolute;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Geometria-Light, Arial, Sans-serif;
+	z-index: 1;
+	color: #000000;
+	top:28%;
+	left: 21%;
+}
+  .third {
+	position: absolute;
+	font-size: 28px;
+	line-height: 36px;
+	font-family: Geometria-Heavy, Arial, Sans-serif;
+	font-weight: bold;
+	z-index: 1;
+	color: #aea424;
+	top:14%;
+	left: 45%;
+    transform: rotate(-90deg);
+}
+  .forth {
+	position: absolute;
+	top: 29%;
+	left: 37%;
+	color: #000000;
+	z-index: 2;
+}
+  .fifth {
+	position: absolute;
+	top: 22%;
+	left: 56%;
+	color: #000000;
+	z-index: 2;
+}
+  .fifth_sign {
+	position: absolute;
+	top: 28%;
+	left: 28%;
+	color: #ffffff;
+	z-index: 2;
+	font-family: Geometria, Arial, Sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+  .sixth {
+	position: absolute;
+	font-size: 9px;
+	line-height: 10px;
+	font-family: Philosopher-Italic, Arial, Sans-serif;
+	font-style: italic;
+	z-index: 1;
+	color: #000000;
+	top:60%;
+	left: 32%;
+    transform: rotate(-90deg);
+}
+  .seventh {
+	position: absolute;
+	top: 63%;
+	left: -2%;
+	color: #000000;
+	z-index: 2;
+}
+  .affinage_sign {
+	position: absolute;
+	top: 87%;
+	left: 19%;
+}
+  .affinage_sign1, .affinage_sign2, .affinage_sign3, .affinage_sign4, .affinage_sign6, .affinage_sign7, .affinage_sign9, .affinage_sign10 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: Philosopher-Bold, Arial, Sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #000000;
+}
+  .affinage_sign1 {
+	top: 93%;
+	left: 23%;
+}
+  .affinage_sign2 {
+	top: 89%;
+	left: 27%;
+}
+  .affinage_sign3 {
+	top: 94%;
+	left: 31%;
+}
+  .affinage_sign4 {
+	top: 91%;
+	left: 35%;
+}
+  .affinage_sign5 {
+	position: absolute;
+	top: 96%;
+	left: 35%;
+}
+  .affinage_sign6 {
+	top: 95%;
+	left: 40%;
+}
+  .affinage_sign7 {
+	top: 94%;
+	left: 61%;
+}
+  .affinage_sign8 {
+	position: absolute;
+	top: 96%;
+	left: 64%;
+}
+  .affinage_sign9 {
+	top: 92%;
+	left: 69%;
+}
+  .affinage_sign10 {
+	top: 94%;
+	left: 78%;
+}
+  .affinage_sign11 {
+	position: absolute;
+	top: 91%;
+	left: 82%;
+}
+  .letters, .letters1, .letters2 {
+	position: absolute;
+}
+  .letters {
+    top: 2%;
+	left: 74%;
+}
+  .letters1 {
+    top: 11%;
+	left: 86%;
+}
+  .letters2 {
+	top: 21%;
+	left: 80%;
+	z-index: 2;
+}
+  .slide_2, #pic2 {
+	position: absolute;
+	top: 20vh;
+	left:40vw;
+	background-size: cover;
+	height: 70%;
+	z-index: 1;
+	width: 60%;
+}
+  .cover1::after {
+	content: '';
+	background-color: #f7e611;
+	opacity: 0.8;
+	position: absolute;
+	top: 10vh;
+	right: 0;
+	bottom: 0;
+	left: 5vw;
+    z-index: 1;
+    width: 60%;
+    height: 70%;
+}
+  .cover2::after {
+    content: '';
+    background-color: #f7e611;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 60%;
+    height: 70%;
+    top: 20vh;
+    left: 40vw;
+}
+  .rectangle {
+	position: absolute;
+	width:11%;
+	height: 56%;
+	background-color: #f7e611;
+	z-index: 2;
+	top:29%;
+	left:77%;
+}
+  .rectangle_sign1 {
+	position: absolute;
+	top: 56%;
+	left: -27%;
+	z-index: 2;
+}
+  .rectangle_sign2 {
+	position: absolute;
+	top: 56%;
+	left: 109%;
+	z-index: 2;
+}
+  .rectangle_sign3, .rectangle_sign4, .rectangle_sign5 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: Geometria-HeavyItalic, Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	z-index: 2;
+}
+  .rectangle_sign3 {
+	top: 78%;
+	left: 16%;
+	line-height: 57px;
+	font-size: 45px;
+}
+  .rectangle_sign4 {
+	top: 84%;
+	left: 55%;
+	font-size: 17px;
+}
+  .rectangle_sign5 {
+	top: 90%;
+	left: 55%;
+	font-size: 17px;
+}
+  .menu {
+    position: absolute;
+	top: 11%;
+	left: 95%;
+}
+  .menu1, .comp_name1, .comp_name, .seventh_sign {
+	display: none;
+}
+  .comp_name2 {
+	position: absolute;
+	z-index: 3;
+	font-family: Philosopher, Arial, Sans-serif;
+	font-size: 96px;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-top: 33%;
+	margin-left: 12%;
+	margin-bottom: 20%;
+	color: #ffffff;
+	width: 80%;
+	text-align: center;
+}
+}

@@ -1,0 +1,80 @@
+@font-face {
+font-family: Geometria;
+src: url("fonts/Geometria/Geometria.otf");
+}
+@font-face {
+font-family: Geometria-Bold;
+src: url("fonts/Geometria/Geometria-Bold.otf");
+}
+@font-face {
+font-family: Geometria-BoldItalic;
+src: url("fonts/Geometria/Geometria-BoldItalic.otf");
+}
+@font-face {
+font-family: Geometria-ExtaBlack;
+src: url("fonts/Geometria/Geometria-ExtaBlack.otf");
+}
+@font-face {
+font-family: Geometria-ExtraBlackItalic;
+src: url("fonts/Geometria/Geometria-ExtraBlackItalic.otf");
+}
+@font-face {
+font-family: Geometria-ExtraLight;
+src: url("fonts/Geometria/Geometria-ExtraLight.otf");
+}
+@font-face {
+font-family: Geometria-ExtraLightItalic;
+src: url("fonts/Geometria/Geometria-ExtraLightItalic.otf");
+}
+@font-face {
+font-family: Geometria-Heavy;
+src: url("fonts/Geometria/Geometria-Heavy.otf");
+}
+@font-face {
+font-family: Geometria-HeavyItalic;
+src: url("fonts/Geometria/Geometria-HeavyItalic.otf");
+}
+@font-face {
+font-family: Geometria-Italic;
+src: url("fonts/Geometria/Geometria-Italic.otf");
+}
+@font-face {
+font-family: Geometria-Light;
+src: url("fonts/Geometria/Geometria-Light.otf");
+}
+@font-face {
+font-family: Geometria-LightItalic;
+src: url("fonts/Geometria/Geometria-LightItalic.otf");
+}
+@font-face {
+font-family: Geometria-Medium;
+src: url("fonts/Geometria/Geometria-Medium.otf");
+}
+@font-face {
+font-family: Geometria-MediumItalic;
+src: url("fonts/Geometria/Geometria-MediumItalic.otf");
+}
+@font-face {
+font-family: Geometria-Thin;
+src: url("fonts/Geometria/Geometria-Thin.otf");
+}
+@font-face {
+font-family: Geometria-ThinItalic;
+src: url("fonts/Geometria/Geometria-ThinItalic.otf");
+}
+@font-face {
+font-family: Philosopher-Bold;
+src: url("fonts/Philosopher/Philosopher-Bold.ttf");
+}
+@font-face {
+font-family: Philosopher-BoldItalic;
+src: url("fonts/Philosopher/Philosopher-BoldItalic.ttf");
+}
+@font-face {
+font-family: Philosopher-Italic;
+src: url("fonts/Philosopher/Philosopher-Italic.ttf");
+}
+@font-face {
+font-family: Philosopher-Regular;
+src: url("fonts/Philosopher/Philosopher-Regular.ttf");
+}
